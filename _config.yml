@@ -7,7 +7,7 @@ title:               OpenDreamKit
 tagline:             'Open Digital Research Environment Toolkit for the Advancement of Mathematics'
 description:         'A European Horizon 2020 Research project.'
 url:                 http://opendreamkit.org
-baseurl:             ''
+baseurl:             '/odk-hyde'
 paginate:            5
 paginate_path:       "/news/page:num/"
 gems:
