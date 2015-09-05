@@ -25,13 +25,15 @@ version:             0.2.0
 
 # Prose.io configuration
 prose:
-  siteurl: 'http://opendreamkit.org'
+  siteurl: "http://opendreamkit.org"
   ignore:
-    - index.md
+    - .gitignore
     - _config.yml
     - Gemfile
-    - atom.xml
+    - CNAME
     - LICENSE.md
+    - atom.xml
+    - index.md
     - 404.html
     - partners.html
     - news
@@ -41,12 +43,13 @@ prose:
     - _data
   metadata:
     _posts:
-      - name: 'layout'
+      - name: layout
         field:
-          element: 'hidden'
-          value: 'post'
-      - name: 'title'
+          element: hidden
+          value: post
+      - name: title
         field:
-          element: 'text'
-          label: 'Title'
-          help: 'Give a title to your post'
+          element: text
+          label: Title
+          help: Give a title to your post
+          
