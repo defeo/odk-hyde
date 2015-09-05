@@ -25,13 +25,20 @@ version:             0.2.0
 
 # Prose.io configuration
 prose:
-  rooturl: '_posts'
   siteurl: 'http://opendreamkit.org'
   ignore:
     - index.md
     - _config.yml
-    - /_layouts
-    - /_includes
+    - Gemfile
+    - atom.xml
+    - LICENSE.md
+    - 404.html
+    - partners.html
+    - news
+    - public
+    - _layouts
+    - _includes
+    - _data
   metadata:
     _posts:
       - name: 'layout'
