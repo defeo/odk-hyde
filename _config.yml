@@ -25,6 +25,7 @@ version:             0.2.0
 
 # Prose.io configuration
 prose:
+  editurl: "http://prose.io/#OpenDreamKit/OpenDreamKit.github.io/edit/"
   siteurl: "http://opendreamkit.org"
   ignore:
     - .gitignore
@@ -47,9 +48,4 @@ prose:
         field:
           element: hidden
           value: post
-      - name: title
-        field:
-          element: text
-          label: Title
-          help: Give a title to your post
           
